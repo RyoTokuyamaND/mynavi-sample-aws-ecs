@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active: dev
+cloud:
+  aws:
+    stack:
+      auto: false
+server:
+  #port: 8081
+  servlet:
+    context-path: /backend-for-frontend
+service:
+  dns: http://internal-MA-tokuyama-ALB-private-1693133280.ap-southeast-2.elb.amazonaws.com
+  #dns: http://localhost:8080/
