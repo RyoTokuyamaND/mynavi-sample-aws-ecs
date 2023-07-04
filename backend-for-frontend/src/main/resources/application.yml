@@ -10,5 +10,5 @@ server:
   servlet:
     context-path: /backend-for-frontend
 service:
-  dns: http://internal-MA-tokuyama-ALB-private-1693133280.ap-southeast-2.elb.amazonaws.com
+  dns: http://internal-ma-tokuyamar-private-alb-236632658.ap-northeast-1.elb.amazonaws.com
   #dns: http://localhost:8080/
