@@ -2,4 +2,4 @@ server:
   servlet:
     context-path: /backend
 service:
-  dns: https://internal-MA-tokuyama-ALB-private-1693133280.ap-southeast-2.elb.amazonaws.com
+  dns: https://ma-tokuyamar-public-alb-830847796.ap-northeast-1.elb.amazonaws.com

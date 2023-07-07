@@ -12,7 +12,7 @@ RUN wget http://repos.fedorapeople.org/repos/dchen/apache-maven/epel-apache-mave
 RUN sed -i s/\$releasever/6/g /etc/yum.repos.d/epel-apache-maven.repo
 RUN yum install -y apache-maven
 ENV JAVA_HOME /etc/alternatives/jre
-RUN git clone https://github.com/debugroom/mynavi-sample-aws-ecs.git /var/local/mynavi-sample-aws-ecs
+RUN git clone https://github.com/RyoTokuyamaND/mynavi-sample-aws-ecs.git /var/local/mynavi-sample-aws-ecs
 RUN mvn install -f /var/local/mynavi-sample-aws-ecs/pom.xml
 
 RUN cp /etc/localtime /etc/localtime.org
